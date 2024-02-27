@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+body{
+    background: #091941;
+    font-family: poppins;
+}
+.blueglow{
+    position: absolute;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 100px;
+    z-index: 1000;
+}
+.leftnav{
+    display: flex;
+    gap: 50px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: white;
+    
+}
+nav ul li{
+    padding-right: 30px;
+}
+
+.logo{
+    width: 60px;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+.buttons button:first-child{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.buttons button:last-child{
+    padding: 15px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.line8{
+    position: absolute;
+}
+.line9{
+    position: absolute;
+}
+.line10{
+    position: absolute;
+    top: 300px;
+}
+
+.banner{
+    text-align: left;
+    z-index: 1000;
+    margin-top: 10%;
+    padding-left: 100px;
+}
+.banner h1{
+    color: white;
+}
+.banner p{
+    color: white;
+    margin-bottom: 20px;
+}
+.banner button{
+    padding: 20px 50px;
+    background: #E25B0F;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.thinkbanner{
+    display: flex;
+}
+.thinkbanner div:last-child img{
+    
+}
+.thinkbanner h1{
+    font-size: 4rem;
+
+}
+.bitcoin{
+    width: 100px;
+    position: absolute;
+    top: 32%;
+    right: 48%;
+}
+.o2{
+    position: absolute;
+    width: 130px;
+   top: 30%;
+   right:35%;
+}
+.fann{
+    position: absolute;
+    top: 45%;
+    width: 170px;
+    right: 18%;
+    top:35%;
+}
+.gold{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 200px;
+}
+.ether{
+    position: absolute;
+    width: 120px;
+    top: 45%;
+    right: 40%;
+}
+.ADA{
+    position: absolute;
+    right: 30%;
+    top: 55%;
+    width: 150px;
+}
+.trone{
+    position: absolute;
+    right: 14%;
+    top: 59%;
+    width: 310px;
+}
+
+
+
